@@ -1,0 +1,7 @@
+1-hacer el figma de la carta restaurante
+2-crear el repositorio de git y vincular a los miembros del grupo
+3-eleguir el menu, precios y buscar las imagenes necesarias para la carta
+4-crear el el html de la pagina
+5-darle estilos(css) a la carta
+
+Repositorio git: git remote add origin git@github.com:nicolascastrocai/Grupo1__Carta-Restaurante.git
