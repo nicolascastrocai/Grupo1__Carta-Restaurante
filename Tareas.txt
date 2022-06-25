@@ -5,4 +5,7 @@
 5-Darle estilos (css) a la carta.
 
 Repositorio git: git remote add origin git@github.com:nicolascastrocai/Grupo1__Carta-Restaurante.git
+<<<<<<< HEAD
 git remote add origin https://github.com/nicolascastrocai/Grupo1__Carta-Restaurante.git
+=======
+>>>>>>> 0f9538cff8fff4632cfcb1e32f0b882adcfa13ab
