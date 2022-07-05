@@ -5,16 +5,82 @@
     font-style: italic;
     font-weight: bold;
 }
+body{
+    background-color: #ddd;
+}
 /*Arranca el trabajo de Nicolas */
 /*Primera parte*/
 main{
     width: 75%;
+    height: auto;
     padding-top: 50px;
     padding-bottom: 80px;
     margin: 50px auto;
     margin-top: 30px;
     position: relative;
+    background-image: url("https://previews.123rf.com/images/attitude/attitude1503/attitude150300110/37726191-papel-abstracta-fondo-marr%C3%B3n-o-pergamino-con-textura-suave-neutral-fondo-liso-para-la-bandera-del-we.jpg");
 }
+
+
+
+
+
+
+
+.contenedorLogoInicio{
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgInicio{
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+    border:5px solid ;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.contenedorInicio{
+    display: flex;
+    margin-left: 30%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    gap: 10px;
+}
+
+.tituloInicio{
+    width: 400px;
+    transition: all 400ms ease;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    background-repeat: no-repeat;
+}
+.tituloInicio:hover{
+    transform: translateY(-10%);
+}
+
+
+
+
+
+
+
+
 
 .titulo1{
     color: black;
@@ -33,7 +99,15 @@ main{
     background-repeat: no-repeat;
 }
 
+
+
+
+
+
+
 .contenedor1{
+    position: relative;
+    height: 100%;
     width: 70%;
     display: flex;
     justify-content: center;
@@ -63,9 +137,15 @@ main{
     color: red;
     font-weight: bold;
 }
-/*Fin de la primera parte*/
 
-/*Arranca la segunda parte*/
+
+
+
+
+
+
+
+
 
 .contenedor2{
     width: 100%;
@@ -93,18 +173,43 @@ main{
     width: 30%;
     text-align: center;
 }
-/*Fin de la segunda parte*/
-/*Fin del trabajo de Nicolas*/
 
 
-/*Arranca el trabajo de Pablo*/
+
+
+
+
+
+
+
+
 .contenedorLateral{
     width: auto;
-    height: auto;
+    height: 100%;
     background-color: #000030;
     position: absolute;
-    top: 2.2%;
-    right: 10%;
+    top: 0%;
+    right: -30%;
+    bottom: 3.6%;
+}
+
+.contenedorLateral2{
+    width: auto;
+    height: 100%;
+    background-color: #000030;
+    position: absolute;
+    top: 2%;
+    right: -30%;
+    bottom: 3.6%;
+}
+
+.contenedorLateral3{
+    width: auto;
+    height: 100%;
+    background-color: #000030;
+    position: absolute;
+    top: 0%;
+    right: -30%;
     bottom: 3.6%;
 }
 
@@ -114,10 +219,10 @@ main{
     height: 220px;
     border: solid;
     border-color: white;
-    margin: 20px auto;
+    margin: 70px auto;
     background-size: cover;
     background-position: center;
-    margin-bottom: 70px;
+    
 }
 .img2{
     width: 250px;
@@ -126,37 +231,62 @@ main{
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    
-
 }
+
+
+
+
+
+
+
+.btn{
+    width: 150px;
+    border-radius: 20px;
+    border: 5px solid black;
+    text-align: center;
+    margin-bottom: 40px;
+    transition: all 400ms ease;
+}
+.btn:hover{
+    transform: translateY(-10%);
+    background-color: white;
+}
+.btnA{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+.btn2{
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all 400ms ease;
+}
+.btn2:hover{
+    transform: translateY(-10%);
+    background-color: white;
+}
+
+
+
+
 /*Termina el trabajo de Pablo*/
 
 /*Responsive*/
 
 @media screen and (max-width: 1300px){
 
-    .contenedorLateral{
-        width: auto;
-        height: auto;
-        background-color: #000030;
-        position: absolute;
-        top: 2%;
-        right: 3%;
-        bottom: 3.2%;
-    }
+    
 }
 
 @media screen and (max-width: 1100px){
     
-    .contenedorLateral{
-        width: auto;
-        height: auto;
-        background-color: #000030;
-        position: absolute;
-        top: 1.9%;
-        right: 0%;
-        bottom: 3%;
-    }
+    
 }
 
 /*Aguanta hasta 950 pixeles(Despues se deforma)*/
