@@ -21,7 +21,51 @@ main{
     background-image: url("https://previews.123rf.com/images/attitude/attitude1503/attitude150300110/37726191-papel-abstracta-fondo-marr%C3%B3n-o-pergamino-con-textura-suave-neutral-fondo-liso-para-la-bandera-del-we.jpg");
 }
 
+footer {
+    width: 75%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin: 50px auto;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(https://i.pinimg.com/originals/ee/29/70/ee29703780f7172631b1bab06e70c66f.jpg);
+}
 
+.Acerca-de {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    margin-top: 70px;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 25px;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    background-repeat: no-repeat;
+
+}
+
+.Contenido {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+aside {
+    float: left;
+    width: 50%;
+
+
+}
+
+.Mapa {
+    margin: 50px;
+}
 
 
 
@@ -233,7 +277,19 @@ main{
     background-position: center;
 }
 
-
+.btn1{
+    width: 150px;
+    border-radius: 20px;
+    background-color: white;
+    border: 5px solid black;
+    text-align: center;
+    margin-bottom: 40px;
+    transition: all 400ms ease;
+}
+.btn1:hover{
+    transform: translateY(-10%);
+    background-color: white;
+}
 
 
 
