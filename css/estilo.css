@@ -88,26 +88,36 @@ aside {
     background-size: cover;
     /*background-position: center;*/
     animation-name: mover;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    
+    
+    
 }
 @keyframes mover {
-    0% { margin-top: 0px;
-         transform: rotate(360deg);      }
-    100% { margin-top: 500px;       }
+    0%{
+        transform: rotate(20deg);
+    }
+
+    100%{
+        transform: rotate(-20deg);
+    }
 }
+
 
 
 
 
 .contenedorInicio{
     display: flex;
-    margin-top: 100px;
-    margin-left: 30%;
+    margin-top: 50px;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 500px;
+    width:100%;
     gap: 10px;
 }
 
@@ -118,16 +128,102 @@ aside {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    font-size: 25px;
     font-family: Arial Black; 
     font-weight: bold; 
     font-size: 30px; 
     text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
     background-repeat: no-repeat;
 }
-.tituloInicio:hover{
-    transform: translateY(-40%);
+
+.tituloInicio1{
+    width: 100%;
+    transition: all 400ms ease;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    background-repeat: no-repeat;
+    animation-name: moverTitulo1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+
 }
+@keyframes moverTitulo1 {
+    100%{
+        transform: translateX(35%);
+    }
+
+    
+}
+
+
+.tituloInicio2{
+    margin: 0;
+    pad: 0;
+    width: 100%;
+    transition: all 400ms ease;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: right;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    background-repeat: no-repeat;
+    animation-name: moverTitulo2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+@keyframes moverTitulo2 {
+    100%{
+        transform: translateX(-50%);
+    }
+
+
+    
+
+    
+}
+
+
+.tituloInicio3{
+    margin: 0;
+    pad: 0;
+    width: 100%;
+    transition: all 400ms ease;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 25px;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 30px; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    background-repeat: no-repeat;
+    animation-name: moverTitulo3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+@keyframes moverTitulo3 {
+    100%{
+        transform: translateX(-27%);
+    }
+
+}
+
+
 
 
 
@@ -292,14 +388,14 @@ aside {
     width: 150px;
     border-radius: 20px;
     background-color: white;
-    border: 5px solid black;
+    border: 1px solid #262524;
     text-align: center;
     margin-bottom: 40px;
     transition: all 400ms ease;
 }
 .btn1:hover{
     transform: translateY(-10%);
-    background-color: white;
+    background-color: goldenrod;
 }
 
 
@@ -309,14 +405,14 @@ aside {
 .btn{
     width: 150px;
     border-radius: 20px;
-    border: 5px solid black;
+    border: 1px solid #262524;
     text-align: center;
     margin-bottom: 40px;
     transition: all 400ms ease;
 }
 .btn:hover{
     transform: translateY(-10%);
-    background-color: white;
+    background-color: goldenrod;
 }
 .btnA{
     text-decoration: none;
@@ -329,14 +425,14 @@ aside {
 .btn2{
     width: 150px;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 1px solid #262524;
     text-align: center;
     margin-bottom: 10px;
     transition: all 400ms ease;
 }
 .btn2:hover{
     transform: translateY(-10%);
-    background-color: white;
+    background-color: goldenrod;
 }
 
 
@@ -413,9 +509,80 @@ aside {
         text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
         background-repeat: no-repeat;
     }
-    .tituloInicio:hover{
+    .tituloInicio1:hover{
         transform: translateY(-40%);
     }
+
+
+    .tituloInicio1{
+        width: 100%;
+        margin-bottom: 20px;
+        transition: all 400ms ease;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 25px;
+        font-family: Arial Black; 
+        font-weight: bold; 
+        font-size: 30px; 
+        text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+        background-repeat: no-repeat;
+        animation-name: none;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+    
+    }
+    
+
+    .tituloInicio2{
+        width: 100%;
+        margin-bottom: 20px;
+        transition: all 400ms ease;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 25px;
+        font-family: Arial Black; 
+        font-weight: bold; 
+        font-size: 30px; 
+        text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+        background-repeat: no-repeat;
+        animation-name: none;
+    
+    }
+    .tituloInicio2:hover{
+        transform: translateY(-40%);
+    }
+
+    .tituloInicio3{
+        width: 100%;
+        margin-bottom: 20px;
+        transition: all 400ms ease;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 25px;
+        font-family: Arial Black; 
+        font-weight: bold; 
+        font-size: 30px; 
+        text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+        background-repeat: no-repeat;
+        animation-name: none;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+    
+    }
+    .tituloInicio3:hover{
+        transform: translateY(-40%);
+    }
+    
     
     
 .titulo1{
