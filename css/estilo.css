@@ -18,7 +18,17 @@ main{
     margin: 50px auto;
     margin-top: 30px;
     position: relative;
-    background-image: url("https://previews.123rf.com/images/attitude/attitude1503/attitude150300110/37726191-papel-abstracta-fondo-marr%C3%B3n-o-pergamino-con-textura-suave-neutral-fondo-liso-para-la-bandera-del-we.jpg");
+    background-position-x: center;
+    background-image: url("https://img.freepik.com/fotos-premium/fondo-pared-ladrillo-negro-luz-lampara_174431-136.jpg?w=2000");
+}
+section{
+    width: 75%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    margin: 50px auto;
+    margin-top: 30px;
+    position: relative;
 }
 
 footer {
@@ -29,7 +39,8 @@ footer {
     margin: 50px auto;
     margin-top: 30px;
     position: relative;
-    background-image: url(https://i.pinimg.com/originals/ee/29/70/ee29703780f7172631b1bab06e70c66f.jpg);
+    background-position-x: center;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-european-retro-pattern-stationery-background-material-image_134187.jpg');
 }
 
 .Acerca-de {
@@ -50,10 +61,12 @@ footer {
 
 }
 
+
 .Contenido {
     float: left;
     width: 50%;
     text-align: center;
+    animation-name: agrandarTitulo;
 }
 
 aside {
@@ -67,6 +80,12 @@ aside {
     margin: 50px;
 }
 
+.mapa2{
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 10px;
+    
+}
 
 
 
@@ -156,7 +175,7 @@ aside {
 }
 @keyframes moverTitulo1 {
     100%{
-        transform: translateX(35%);
+        transform: translateX(31%);
     }
 
     
@@ -185,7 +204,7 @@ aside {
 }
 @keyframes moverTitulo2 {
     100%{
-        transform: translateX(-50%);
+        transform: translateX(-54%);
     }
 
 
@@ -218,7 +237,7 @@ aside {
 }
 @keyframes moverTitulo3 {
     100%{
-        transform: translateX(-27%);
+        transform: translateX(-32%);
     }
 
 }
@@ -248,8 +267,21 @@ aside {
     font-size: 30px; 
     text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
     background-repeat: no-repeat;
+    animation-name: agrandarTitulo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
+@keyframes agrandarTitulo {
+    0%{
+        transform: scale(50%);
+    }
+
+    100%{
+       transform:scale(150%)
+    }
+}
 
 
 
@@ -264,6 +296,7 @@ aside {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-position-x: center;
     gap: 15%;
     background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-european-retro-pattern-stationery-background-material-image_134187.jpg");
 }
@@ -349,7 +382,7 @@ aside {
     height: 100%;
     background-color: #000030;
     position: absolute;
-    top: 2%;
+    top: 0%;
     right: -30%;
     bottom: 3.6%;
 }
@@ -455,8 +488,32 @@ aside {
 /*Aguanta hasta 950 pixeles(Despues se deforma)*/
 
 @media screen and (max-width: 590px){
+    main{
+        width: 95%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 10px;
+        position: relative;
+        background-position: center;
+        background-attachment: local;
+        background-position-x: center;
+        text-align: center;
+        background-image: url("https://img.freepik.com/fotos-premium/fondo-pared-ladrillo-negro-luz-lampara_174431-136.jpg?w=2000");
+    }
+
+    section{
+        width: 95%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 80px;
+        margin: 20px auto;
+        margin-top: 30px;
+        position: relative;
+    }
+    
     .contenedorLogoInicio{
-        margin-top: 0px;
+        margin-top: 10px;
         display: flex;
         justify-content: center;
         margin-left: auto;
@@ -617,7 +674,7 @@ aside {
     align-items: center;
     flex-wrap: wrap;
     gap: 15%;
-    
+    background-position-x: center;
     background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-european-retro-pattern-stationery-background-material-image_134187.jpg");
 }
 
@@ -761,14 +818,14 @@ aside {
 .btn{
     width: 150px;
     border-radius: 20px;
-    border: 5px solid black;
+    border: 1px solid #262524;
     text-align: center;
     margin-bottom: 40px;
     transition: all 400ms ease;
 }
 .btn:hover{
     transform: translateY(-10%);
-    background-color: white;
+    background-color: goldenrod;
 }
 .btnA{
     text-decoration: none;
@@ -781,25 +838,25 @@ aside {
 .btn2{
     width: 150px;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 1px solid #262524;
     text-align: center;
     margin-bottom: 10px;
     transition: all 400ms ease;
 }
 .btn2:hover{
     transform: translateY(-10%);
-    background-color: white;
+    background-color: goldenrod;
 }
 
 footer {
-    width: 100%;
+    width: 95%;
     height: auto;
     padding-top: 50px;
     padding-bottom: 80px;
     margin: 50px auto;
     margin-top: 30px;
     position: relative;
-    background-image: url(https://i.pinimg.com/originals/ee/29/70/ee29703780f7172631b1bab06e70c66f.jpg);
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-european-retro-pattern-stationery-background-material-image_134187.jpg');
 }
 
 .Acerca-de {
@@ -835,12 +892,13 @@ aside {
 }
 
 .Mapa {
-   
+   margin: 20px;
 }
 
 .mapa2{
-    margin-top: 50px;
-    width: 90%;
+    margin-top: 20px;
+    width: 95%;
+    height: 300px;
 }
     
 }
