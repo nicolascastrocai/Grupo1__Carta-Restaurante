@@ -8,8 +8,9 @@
 body{
     background-color: #ddd;
 }
-/*Arranca el trabajo de Nicolas */
-/*Primera parte*/
+
+
+/*el fonde del inicio de la carta (el index)*/
 main{
     width: 75%;
     height: auto;
@@ -21,6 +22,9 @@ main{
     background-position-x: center;
     background-image: url("https://www.publicdomainpictures.net/pictures/330000/nahled/pergament-beige-hintergrund-vintage.jpg");
 }
+
+
+/*el fondo de las cartas(menu,postres,bebidas,acerca de nosotros)*/
 section{
     width: 75%;
     height: auto;
@@ -31,6 +35,10 @@ section{
     position: relative;
 }
 
+
+
+
+/*son los estilos del footer (la pagia de acerda de nosotros)*/
 footer {
     width: 75%;
     height: auto;
@@ -90,6 +98,8 @@ aside {
 
 
 
+
+/*los estilos al logo del index*/
 .contenedorLogoInicio{
     margin-top: 0px;
     display: flex;
@@ -98,6 +108,7 @@ aside {
     margin-right: auto;
 }
 
+/*logo del index*/
 .imgInicio{
     width: 400px;
     height: 300px;
@@ -139,7 +150,7 @@ aside {
     gap: 10px;
 }
 
-
+/*los estilos del primer y tercer titulo del index*/
 .tituloInicio1{
     width: 100%;
     transition: all 400ms ease;
@@ -165,7 +176,7 @@ aside {
     }
 }
 
-
+/*son los estilos del segundo titulo del index*/
 .tituloInicio2{
     margin: 0;
     pad: 0;
@@ -192,7 +203,7 @@ aside {
     }
 }
 
-
+/*son los estilos del ultimo titulo del index*/
 .tituloInicio3{
     margin: 0;
     pad: 0;
@@ -230,7 +241,7 @@ aside {
 
 
 
-
+/*son los estilos de todos los titulos de nuestro catalogo de venta(menu,postre,bebidas)*/
 .titulo1{
     color: black;
     text-transform: uppercase;
@@ -265,8 +276,7 @@ aside {
 
 
 
-
-
+/*son los estilos de nuestro menu con sus respectivas comidas o bebidas o postres*/
 .contenedor1{
     position: relative;
     height: 100%;
@@ -309,7 +319,7 @@ aside {
 
 
 
-
+/*son los estilos de nuestro menu con sus respectivas comidas o bebidas o postres*/
 .contenedor2{
     width: 100%;
     display: flex;
@@ -345,7 +355,7 @@ aside {
 
 
 
-
+/*son los estilos de la barra lateral donde colocamos las fotos de nuestro productos*/
 .contenedorLateral{
     width: auto;
     height: 100%;
@@ -376,6 +386,8 @@ aside {
     bottom: 3.6%;
 }
 
+
+/*los estilos de las imagenes que perteneces a la barra lateral*/
 .contenedorImg2{
     border-radius: 50%;
     width: 250px;
@@ -396,6 +408,10 @@ aside {
     background-position: center;
 }
 
+
+
+
+/*son los estilos de los botones para pasar de pagina*/
 .btn1{
     width: 150px;
     border-radius: 20px;
@@ -478,7 +494,7 @@ aside {
         background-attachment: local;
         background-position-x: center;
         text-align: center;
-        background-image: url("https://img.freepik.com/fotos-premium/fondo-pared-ladrillo-negro-luz-lampara_174431-136.jpg?w=2000");
+        background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-european-retro-pattern-stationery-background-material-image_134187.jpg");
     }
 
     section{
