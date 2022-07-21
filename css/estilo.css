@@ -105,7 +105,6 @@ aside {
     border:5px solid ;
     background-color: white;
     background-size: cover;
-    /*background-position: center;*/
     animation-name: mover;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -140,19 +139,6 @@ aside {
     gap: 10px;
 }
 
-.tituloInicio{
-    width: 400px;
-    transition: all 400ms ease;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: Arial Black; 
-    font-weight: bold; 
-    font-size: 30px; 
-    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
-    background-repeat: no-repeat;
-}
 
 .tituloInicio1{
     width: 100%;
@@ -177,8 +163,6 @@ aside {
     100%{
         transform: translateX(31%);
     }
-
-    
 }
 
 
@@ -206,11 +190,6 @@ aside {
     100%{
         transform: translateX(-54%);
     }
-
-
-    
-
-    
 }
 
 
@@ -238,8 +217,8 @@ aside {
 @keyframes moverTitulo3 {
     100%{
         transform: translateX(-32%);
+        
     }
-
 }
 
 
