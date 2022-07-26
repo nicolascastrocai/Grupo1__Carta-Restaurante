@@ -176,61 +176,9 @@ aside {
     }
 }
 
-/*son los estilos del segundo titulo del index*/
-.tituloInicio2{
-    margin: 0;
-    pad: 0;
-    width: 100%;
-    transition: all 400ms ease;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: right;
-    font-family: Arial Black; 
-    font-weight: bold; 
-    font-size: 30px; 
-    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
-    background-repeat: no-repeat;
-    animation-name: moverTitulo2;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-}
-@keyframes moverTitulo2 {
-    100%{
-        transform: translateX(-54%);
-    }
-}
 
-/*son los estilos del ultimo titulo del index*/
-.tituloInicio3{
-    margin: 0;
-    pad: 0;
-    width: 100%;
-    transition: all 400ms ease;
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: right;
-    font-size: 25px;
-    font-family: Arial Black; 
-    font-weight: bold; 
-    font-size: 30px; 
-    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
-    background-repeat: no-repeat;
-    animation-name: moverTitulo3;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-}
-@keyframes moverTitulo3 {
-    100%{
-        transform: translateX(-32%);
-        
-    }
-}
+
+
 
 
 
@@ -494,7 +442,7 @@ aside {
         background-attachment: local;
         background-position-x: center;
         text-align: center;
-        background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190619/ourmid/pngtree-european-retro-pattern-stationery-background-material-image_134187.jpg");
+        background-image: url("https://www.publicdomainpictures.net/pictures/330000/nahled/pergament-beige-hintergrund-vintage.jpg");
     }
 
     section{
