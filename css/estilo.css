@@ -17,7 +17,7 @@ main{
     padding-top: 50px;
     padding-bottom: 80px;
     margin: 50px auto;
-    margin-top: 30px;
+    margin-top: 0px;
     position: relative;
     background-position-x: center;
     background-image: url("https://www.publicdomainpictures.net/pictures/330000/nahled/pergament-beige-hintergrund-vintage.jpg");
@@ -110,8 +110,8 @@ aside {
 
 /*logo del index*/
 .imgInicio{
-    width: 400px;
-    height: 300px;
+    width: 320px;
+    height: 220px;
     border-radius: 10%;
     border:5px solid ;
     background-color: white;
